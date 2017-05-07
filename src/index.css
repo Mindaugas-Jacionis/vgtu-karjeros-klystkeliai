@@ -37,6 +37,7 @@ body {
   max-width: 1000px;
   padding: 0px 10px;
   overflow: hidden;
+  border-radius: 6px;
 }
 
 .slide-image-wrapper .slide-image {
