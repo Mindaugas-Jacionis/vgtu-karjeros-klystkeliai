@@ -13,7 +13,7 @@ export const slides = [
     text: 'What is this? What is that? Why I need this? How I use it in practice? Questions a lot of professors were unable to answer. Ohh, I need to do an internship? I’ll just work anywhere for the money and get them to sign that I did IT internship. So, didn’t really do internship.'
   },
   {
-    image: 'http://funnyasduck.net/wp-content/uploads/2012/12/funny-shocked-surprised-nyan-cat-wtf-is-was-that-pics.jpg',
+    image: 'http://i.memecaptain.com/gend_images/YZQvyw.png',
     title: '2nd year',
     subtitle: null,
     text: 'Couple of great mathematics modules and some C# which finally seems like the thing I wanted to learn. Coded my first desktop app - “hangman” game. I assked: What can you create with C#, it seems so overcomplicated for small things? - Answer: You can build anything. Not really an answers my question.'
@@ -50,7 +50,7 @@ export const slides = [
   },
   {
     image: 'http://i0.kym-cdn.com/photos/images/original/000/252/453/ca4.jpg',
-    title: '4th year, time to do my thesis, 1st semester',
+    title: '4th year, 1st semester',
     subtitle: null,
     text: 'Still working @ Omnitel as customer care consultant(Stoped speaking after work, now I am afraid of the phone). Another few outdated lectures @ the uni, not too fun, no answers yet. Had ArcGis, which is like maps making software with a lot of good functions that solve a lot of issues for their users.'
   },
@@ -92,13 +92,64 @@ export const slides = [
   },
   {
     image: 'https://www.makingdifferent.com/wp-content/uploads/2013/03/Learn-HTML-CSS-Javascript.jpg',
-    title: 'Started (Re)learning Html/css/javascript',
+    title: 'Started (Re)learning Html / css / javascript',
     subtitle: null,
-    text: 'Started taking online(udemy) beginner courses on html5, css3 and javascript. During the day I work, during the night(parts of it at least) I am learning. Took my first freelance project to make a blog, failed a lot. Still, I finished it(in 6months) as wordpress blog built from scratch.'
+    text: 'After few months realized I hate accounting. Started taking online(udemy) beginner courses on html5, css3 and javascript. During the day I work, during the night(parts of it at least) I am learning. Took my first freelance project to make a blog, failed a lot. Still, I finished it(in 6months) as wordpress blog built from scratch.'
   },
-
-
-
+  {
+    image: 'http://d311ua4en7j8ch.cloudfront.net/uploads/default/news/images/44a0195bae392e76.jpg',
+    title: 'My first IT job proposal',
+    subtitle: null,
+    text: 'Friend that studied in the same course messaged me that company he works for is looking for frontend dev. By that time I had some basic knowledge of very basic frontend technology and I really wanted to switch job and company as fast as possible. Got the job proposal and agreed to start in a month.'
+  },
+  {
+    image: 'https://img.memesuper.com/02c28c9fc81309b37d82b068ec1a1c75_i-saw-your-job-posting-online-on-the-job-memes_625-416.jpeg',
+    title: 'Interviewing with Adform Lithuania',
+    subtitle: null,
+    text: 'While waiting to start my new job I went on another interview @ Adform as a frontend dev. During first 10 minutes was told that I am too junior, but we continued to talk about any other options and I was redirected to another HR of support department where we discussed web tracking specialist possition. Two interviews and one test later I got a proposal.'
+  },
+  {
+    image: 'https://img.memesuper.com/d5a802a87e78027cb3ebd1c29630d819_tough-decision-meme-decision_500-392.jpeg',
+    title: '2 job proposals - dilemma',
+    subtitle: null,
+    text: '1st company pays more and it is frontend dev position, but whole business looks shady. Adform pays little bit less and it seems like a step back as it is customer care department again, but has good prospects on learning in depth javascript. I chose Adform - best decision ever!!!'
+  },
+  {
+    image: 'https://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/chi-success-kid-meme-dad-kidney-bsi-001.jpg',
+    title: '6 months later - great success',
+    subtitle: null,
+    text: 'After probation(3months) my salary was increased and now there is no difference in money between other job I turned down and this one. Had few side projects in the company, learned bunch of things, started teaching others. After another 3 months(6 months @ the company) head of marketing asked me to join their department as a web developer. Great success!'
+  },
+  {
+    image: 'https://cdn.meme.am/cache/instances/folder249/500x/67152249/spiderman-desk-the-original-web-developer.jpg',
+    title: 'I am spiderman',
+    subtitle: null,
+    text: 'It took few more months to arange my new job, turns out it is a month long internship, if I am worhty I get the role! Got to handle this! 140% of effort, staying late at the office(do not recommended, as later it affected my health) and I got the permanent role. Now I am a web developer! All the adform websites - I have worked on all of them!'
+  },
+  {
+    image: 'http://news.efinancialcareers.com/wp-content/uploads/Headhunter.jpg',
+    title: 'Headhunters approach',
+    subtitle: null,
+    text: 'I asked for a raise, got half the amount I asked - was not too happy, but there was a lot of stuff still to learn. Had two senior developers watching over me. Felt a little underpaid and treated still as a junior therefore when headhunters wrote to me I went to the interview.'
+  },
+  {
+    image: 'https://mindaugas-jacionis.github.io/external-pics/corporate-jacionis-mindaugas.jpg',
+    title: 'I will work @ the bank',
+    subtitle: null,
+    text: 'After 3 interviews, 2 tests and one payper confirming I have never been in jail - I got the job. Increased my salary by ~40%, switched to mobile(now I do apps not websites). Was the only frontend dev in the team in Lithuanian office. It was a bank I swithced to, but surprisingly technology was fresh and new(at least at first). Learned a lot! Got to go to conferences and visit Denmark(every 2months). All seemed as a dream.'
+  },
+  {
+    image: 'http://infornicle.com/wp-content/uploads/2017/01/bored.jpg',
+    title: 'Corporate life struggles',
+    subtitle: null,
+    text: '8 - 10 months later realised it is all too corporate for me and I want to move faster and take bigger risks. Was deciding to leave Lithuania and join IT company somewhere in Europe or stay here. Googled for "React Native work Vilnius" found one opening @ PlateCulture - applied, got invited to the interview.'
+  },
+  {
+    image: 'https://mindaugas-jacionis.github.io/external-pics/slide-code.png',
+    title: 'Code Code Code',
+    subtitle: null,
+    text: 'After an interview and two phone calls - I got the job. It took me one week to tell my boss of my decision(In first interview I told him I am loyal and felt like leaving is like cheating). Now it is ~6months I am working as lead mobile dev @ PlateCulture. I have quick pace of work, minimal amount of meets(just 1 per week) and a lot of coding - perfect environment to boost coding skills.'
+  },
   {
     image: 'http://images.huffingtonpost.com/2015-10-21-1445410698-8403632-futurecontinued.jpg',
     title: 'Present day...Most likely story is not finished yet',
@@ -109,7 +160,7 @@ export const slides = [
     image: 'http://lifeasahuman.com/files/2010/10/Cosmic_Buddha.jpg',
     title: 'Enlightenment...or simply conclusions',
     subtitle: null,
-    text: 'Do internships the right way! Question everything you learn and if proffesors do not give the answers - find them online, or find mentors/field professionals and ask them. If you are going to work - work in your field. First job - knowledge comes before money.'
+    text: 'Do internships the right way! Question everything you learn and if proffesors do not give the answers - find them online, or find mentors/field professionals and ask them. If you are going to work - work in your field. First job - knowledge comes before money. Invest time in learning about other aspects of your job(net worth, certification, possible promotion options) - you need some goal. If you realise you are in the wrong place/ company/ position - do not wait, change things.'
   },
   {
     image: 'https://media.makeameme.org/created/presentation-finished-any-ksd616.jpg',
