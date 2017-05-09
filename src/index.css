@@ -1,5 +1,5 @@
 * {
-  transition: all 0.3s ease-in;
+  transition: all 0.3s linear;
 }
 
 html, body, #root, .app {

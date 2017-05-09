@@ -10,10 +10,24 @@ class Slide extends Component {
     }
   }
 
+  componentWillMount(){
+      document.addEventListener("keyup", (event) => this.onKeyPress(event));
+  }
+
+  onKeyPress(event) {
+    const { currentStep } = this.state;
+
+    if (event.code === 'ArrowRight') {
+      this.onChangeSlide(currentStep + 1);
+    } else if (event.code === 'ArrowLeft') {
+      this.onChangeSlide(currentStep - 1);
+    }
+  }
+
   scrollToTop(scrollDuration = 300) {
     const scrollStep = -window.scrollY / (scrollDuration / 15),
     scrollInterval = setInterval(() => {
-      if ( window.scrollY != 0 ) {
+      if ( window.scrollY !== 0 ) {
         window.scrollBy( 0, scrollStep );
       } else {
         clearInterval(scrollInterval);
@@ -36,7 +50,7 @@ class Slide extends Component {
       <div className={`slide active-${isActive}`}>
         <h2 className="title">{slides[currentStep].title}</h2>
         <div className="slide-image-wrapper">
-          <img src={slides[currentStep].image} className="slide-image" alt="slide image" />
+          <img src={slides[currentStep].image} className="slide-image" alt="slide" />
         </div>
         <h4 className="subtitle">{slides[currentStep].subtitle}</h4>
         <p className="text">{slides[currentStep].text}</p>
