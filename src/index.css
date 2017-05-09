@@ -35,7 +35,6 @@ body {
 
 .slide-image-wrapper {
   max-width: 1000px;
-  flex: 1;
   padding: 0px 10px;
   overflow: hidden;
   border-radius: 6px;
