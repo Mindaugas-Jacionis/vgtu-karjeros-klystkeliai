@@ -9,7 +9,19 @@ class Slide extends Component {
     }
   }
 
+  scrollToTop(scrollDuration = 300) {
+    const scrollStep = -window.scrollY / (scrollDuration / 15),
+    scrollInterval = setInterval(() => {
+      if ( window.scrollY != 0 ) {
+        window.scrollBy( 0, scrollStep );
+      } else {
+        clearInterval(scrollInterval);
+      }
+    }, 15);
+  }
+
   onChangeSlide(nextStep) {
+    this.scrollToTop();
     this.setState({ currentStep: nextStep });
   }
 
