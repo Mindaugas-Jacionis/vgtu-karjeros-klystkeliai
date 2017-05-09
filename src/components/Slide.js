@@ -5,7 +5,8 @@ class Slide extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentStep: 0
+      currentStep: 0,
+      isActive: true
     }
   }
 
@@ -22,14 +23,17 @@ class Slide extends Component {
 
   onChangeSlide(nextStep) {
     this.scrollToTop();
-    this.setState({ currentStep: nextStep });
+    this.setState({ isActive: false });
+    setTimeout(() => {
+      this.setState({ currentStep: nextStep, isActive: true });
+    }, 400);
   }
 
   render() {
-    const { currentStep } = this.state;
+    const { currentStep, isActive } = this.state;
 
     return (
-      <div className="slide">
+      <div className={`slide active-${isActive}`}>
         <h2 className="title">{slides[currentStep].title}</h2>
         <div className="slide-image-wrapper">
           <img src={slides[currentStep].image} className="slide-image" alt="slide image" />

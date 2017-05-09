@@ -33,6 +33,14 @@ body {
   justify-content: space-between;
 }
 
+.slide.active-true {
+  opacity: 1;
+}
+
+.slide.active-false {
+  opacity: 0;
+}
+
 .slide-image-wrapper {
   max-width: 1000px;
   padding: 0px 10px;
