@@ -37,10 +37,12 @@ class Slide extends Component {
 
   onChangeSlide(nextStep) {
     this.scrollToTop();
-    this.setState({ isActive: false });
-    setTimeout(() => {
-      this.setState({ currentStep: nextStep, isActive: true });
-    }, 400);
+    if (nextStep < slides.length && nextStep >= 0) {
+      this.setState({ isActive: false });
+      setTimeout(() => {
+        this.setState({ currentStep: nextStep, isActive: true });
+      }, 400);
+    }
   }
 
   render() {
